@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title":"Ram",
+        "image":"https://imagenes.compragamer.com/productos/compragamer_Imganen_general_16061_Memoria_Team_DDR4_8GB_3200MHz_T-Force_Delta_TUF_RGB_90e8a715-grn.jpg"
+    },
+    {
+        "id":2,
+        "title":"Video Card",
+        "image":"https://imagenes.compragamer.com/productos/compragamer_Imganen_general_41330_Placa_de_Video_Zotac_GeForce_RTX_4060_Ti_16GB_GDDR6_AMP_b55acf2f-grn.jpg"
+    },
+    {
+        "id":3,
+        "title":"Motherboard",
+        "image":"https://imagenes.compragamer.com/productos/compragamer_Imganen_general_37927_Mother_ASUS_ROG_MAXIMUS_Z790_HERO_LGA1700_DDR5_4b51facb-grn.jpg"
+    },
+    {
+        "id":4,
+        "title":"Processor",
+        "image":"https://imagenes.compragamer.com/productos/compragamer_Imganen_general_16481_Procesador_AMD_Athlon_3000G_3.5GHz___Radeon_Vega_3_AM4_8a762b5b-grn.jpg"
+    }
+]

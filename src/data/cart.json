@@ -1,0 +1,28 @@
+[
+    {
+        "id": 2,
+        "title": "Ram G.Skill Ripjaws V 32GB",
+        "shortDescription": "Memoria DDR4 de 32GB ideal para creadores de contenido y jugadores exigentes.",
+        "price": 1500000,
+        "stock": 8,
+        "brand": "G.Skill",
+        "category": "ram",
+        "discount": 5,
+        "tags": ["new", "high-performance"],
+        "mainImage": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_29474_Memoria_Team_DDR5_32GB__2x16GB__6400MHz_T-Force_Delta_RGB_Black_CL40_Intel_XMP_3.0_884828e7-grn.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "title": "Gigabyte AORUS GeForce RTX 3080",
+        "shortDescription": "Tarjeta gráfica de gama alta para un rendimiento extremo en juegos y trabajo creativo.",
+        "price": 4000000,
+        "stock": 3,
+        "brand": "Gigabyte",
+        "category": "video card",
+        "discount": 5,
+        "tags": ["new", "premium"],
+        "mainImage": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_35118_Placa_de_Video_ASUS_Dual_GeForce_RTX_3060_12GB_GDDR6_OC_V2_db8ba770-grn.jpg",
+        "quantity": 2
+    }
+]
