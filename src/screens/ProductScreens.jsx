@@ -59,9 +59,6 @@ const ProductScreens = ({navigation}) => {
                                 :
                                 productFound.stock > 0 && <Pressable onPress={() => dispatch(addItem({ ...productFound, quantity: 1 }))} style={({ pressed }) => [{ opacity: pressed ? 0.60 : 1 }, styles.buttonConfirm]} ><Text style={styles.textConfirm}>Agregar al carrito</Text></Pressable>
                             }
-                            {/* {
-                                productFound.stock > 0 && <Pressable onPress={() => dispatch(addItem({ ...productFound, quantity: 1 }))} style={({ pressed }) => [{ opacity: pressed ? 0.60 : 1 }, styles.buttonConfirm]} ><Text style={styles.textConfirm}>Agregar al carrito</Text></Pressable>
-                            } */}
                         </View>
             }
         </>

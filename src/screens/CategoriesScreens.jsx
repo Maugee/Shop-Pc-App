@@ -1,7 +1,6 @@
 import { StyleSheet, Text, View, FlatList, Image, Pressable, ActivityIndicator } from 'react-native'
 import React from 'react'
 import { FlatGrid } from 'react-native-super-grid'
-// import categories from "../data/categories.json"
 import { useSelector, useDispatch } from 'react-redux'
 import { setCategory } from '../features/ShopSlice'
 import { useGetCategoriesQuery } from '../services/shopService'
@@ -9,12 +8,11 @@ import { useGetCategoriesQuery } from '../services/shopService'
 
 const CategoriesScreens = ({ navigation }) => {
 
-    // const categories = useSelector(state=>state.shopSlice.value.categories)
 
     const { data: categories, error, isLoading } = useGetCategoriesQuery()
 
     if (error) {
-        console.log('Error:', error);  // Agrega este log
+        console.log('Error:', error);
         return <Text>Error al cargar las categorias</Text>;
     }
 

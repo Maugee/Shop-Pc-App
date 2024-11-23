@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import { useLoginMutation } from '../services/authService'
 import { setUser } from '../features/authSlice'
 import { useDispatch } from 'react-redux'
-// import { insertInit, clearInit } from '../db'
 import { insertSession, clearSessions } from '../db'
 
 import Icon from 'react-native-vector-icons/MaterialIcons'

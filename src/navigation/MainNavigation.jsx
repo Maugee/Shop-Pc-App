@@ -9,7 +9,6 @@ import AuthNavigator from "./AuthNavigator";
 import { useGetProfilePictureQuery } from "../services/userService";
 import { setProfileImage, setUser } from "../features/authSlice";
 
-// import { fetchInit } from "../db";
 import { fetchSession } from "../db";
 
 const Stack = createNativeStackNavigator()
